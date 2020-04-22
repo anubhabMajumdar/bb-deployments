@@ -53,6 +53,7 @@ spec:
       resources:
         requests:
           storage: 12Gi
+      storageClassName: wcpglobal-storage-profile
   - metadata:
       name: ac
     spec:
@@ -61,6 +62,7 @@ spec:
       resources:
         requests:
           storage: 1Gi
+      storageClassName: wcpglobal-storage-profile
 ---
 apiVersion: v1
 kind: Service
